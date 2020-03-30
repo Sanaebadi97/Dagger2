@@ -3,7 +3,7 @@
 
 
     // Dagger dependencies
-  // Basic Dagger 2 (required)
+
  
     
      // dagger.android package (optional)
