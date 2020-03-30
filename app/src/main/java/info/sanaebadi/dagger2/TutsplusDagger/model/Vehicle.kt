@@ -1,4 +1,6 @@
-package info.sanaebadi.dagger2.TutsplusDagger
+package info.sanaebadi.dagger2.TutsplusDagger.model
+
+import info.sanaebadi.dagger2.TutsplusDagger.model.Motor
 
 data class Vehicle(var motor: Motor){
 

@@ -1,4 +1,4 @@
-package info.sanaebadi.dagger2.TutsplusDagger
+package info.sanaebadi.dagger2.TutsplusDagger.model
 
 data class Motor(var rpm:Int) {
 
