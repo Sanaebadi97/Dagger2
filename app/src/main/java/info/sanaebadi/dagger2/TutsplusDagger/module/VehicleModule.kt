@@ -13,13 +13,13 @@ class VehicleModule {
     @Provides
     @Singleton
     fun provideMotor(): Motor? {
-        return Motor(1)
+        return Motor()
     }
 
     @Provides
     @Singleton
     fun provideVehicle(): Vehicle? {
-        return Vehicle(Motor(1))
+        return Vehicle(Motor())
     }
 
 }

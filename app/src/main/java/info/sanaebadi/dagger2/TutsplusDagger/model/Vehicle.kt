@@ -1,10 +1,10 @@
 package info.sanaebadi.dagger2.TutsplusDagger.model
 
-import info.sanaebadi.dagger2.TutsplusDagger.model.Motor
-
-data class Vehicle(var motor: Motor){
+import javax.inject.Inject
 
 
+
+class Vehicle constructor(@Inject private val motor: Motor) {
     fun increaseSpeed(value: Int) {
         motor.accelerate(value)
     }
@@ -13,8 +13,7 @@ data class Vehicle(var motor: Motor){
         motor.brake()
     }
 
-    fun getSpeed(): Int {
-        return motor.rpm
-    }
+    val speed: Int
+        get() = motor.rpm
 
 }
