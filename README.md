@@ -10,5 +10,5 @@
     implementation "com.google.dagger:dagger-android:$dagger2_version"
 
     kapt "com.google.dagger:dagger-android-processor:$dagger2_version"
-    // Support library support (optional)
+
 
