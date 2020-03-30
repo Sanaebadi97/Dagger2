@@ -1,6 +1,4 @@
 
-h
-8app/src/main/java/info/sanaebadi/dagger2/MainActivity.kt,1/2/123113d32592e12681373aac458c38074c2ec187
 z
 Japp/src/androidTest/java/info/sanaebadi/dagger2/ExampleInstrumentedTest.kt,b/e/bef7950e5846cd8dfa2fd6cb9283917b82c8778e
 d
@@ -44,3 +42,13 @@ A
 gradlew.bat,2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3
 ?
 settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
+v
+Fapp/src/main/java/info/sanaebadi/dagger2/TutsplusDagger/model/Motor.kt,b/c/bc4ab1a3a4bb9f5787d48ab1554ec3d5eead429c
+
+Oapp/src/main/java/info/sanaebadi/dagger2/TutsplusDagger/module/VehicleModule.kt,7/0/703c9d593d84b182b3a399224c2359eb1f164e7f
+…
+Uapp/src/main/java/info/sanaebadi/dagger2/TutsplusDagger/component/VehicleComponent.kt,2/9/29d4d1a180f951020cf35decf99c2e58daf1eb76
+w
+Gapp/src/main/java/info/sanaebadi/dagger2/TutsplusDagger/MainActivity.kt,b/b/bbaf2022054cb9f1ca623bd4b1646ac81876341e
+x
+Happ/src/main/java/info/sanaebadi/dagger2/TutsplusDagger/model/Vehicle.kt,2/7/27acc70768c593010d4ae42d4b621a6baf99c350

@@ -39,8 +39,25 @@ dependencies {
 
 
     // Dagger dependencies
-    implementation "com.google.dagger:dagger-android:2.22"
-    implementation 'com.google.dagger:dagger:2.22'
-    kapt 'com.google.dagger:dagger-compiler:2.22'
-    provided 'javax.annotation:jsr250-api:1.0'
+
+    ext.dagger2_version = '2.24'
+
+
+    // Basic Dagger 2 (required)
+    implementation "com.google.dagger:dagger:$dagger2_version"
+    kapt "com.google.dagger:dagger-compiler:$dagger2_version"
+    // dagger.android package (optional)
+    implementation "com.google.dagger:dagger-android:$dagger2_version"
+    kapt "com.google.dagger:dagger-android-processor:$dagger2_version"
+    // Support library support (optional)
+    kapt "com.google.dagger:dagger-android-support:$dagger2_version"
+
+
+   //Retrofit dependencies
+
+    implementation 'com.squareup.retrofit2:retrofit:2.6.2'
+    implementation 'com.squareup.retrofit2:retrofit-converters:2.6.1'
+    implementation 'com.squareup.retrofit2:retrofit-adapters:2.6.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
+
 }

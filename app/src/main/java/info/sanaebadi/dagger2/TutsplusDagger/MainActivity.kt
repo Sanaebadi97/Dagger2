@@ -1,8 +1,9 @@
-package info.sanaebadi.dagger2
+package info.sanaebadi.dagger2.TutsplusDagger
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import info.sanaebadi.dagger2.R
 import info.sanaebadi.dagger2.TutsplusDagger.component.DaggerVehicleComponent
 import info.sanaebadi.dagger2.TutsplusDagger.component.VehicleComponent
 import info.sanaebadi.dagger2.TutsplusDagger.model.Vehicle
