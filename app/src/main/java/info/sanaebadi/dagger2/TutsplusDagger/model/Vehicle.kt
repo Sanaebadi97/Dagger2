@@ -4,7 +4,7 @@ import javax.inject.Inject
 
 
 
-class Vehicle constructor(@Inject private val motor: Motor) {
+class Vehicle @Inject constructor( private val motor: Motor) {
     fun increaseSpeed(value: Int) {
         motor.accelerate(value)
     }
