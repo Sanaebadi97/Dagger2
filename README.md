@@ -14,7 +14,7 @@ another object.
     
 # Dagger2 – Something Confusing? :pushpin:
 Dagger2 frustration
-Similar to **RxJava**, Dagger is often said to come off as being difficult to understand and use. I can admit that when I first 
+ 
 
 
 
