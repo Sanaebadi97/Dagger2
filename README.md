@@ -1,5 +1,5 @@
 
-## What is Dependency Injection?
+## What is Dependency Injection? :syringe:
 
 First, what is a dependency? Any non-trivial software program is going to contain components that pass information and send message 
 
