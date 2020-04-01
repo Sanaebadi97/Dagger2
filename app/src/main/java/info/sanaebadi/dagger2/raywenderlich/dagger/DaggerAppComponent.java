@@ -3,7 +3,7 @@ package info.sanaebadi.dagger2.raywenderlich.dagger;
 import com.raywenderlich.android.droidwiki.network.Homepage;
 import com.raywenderlich.android.droidwiki.network.Wiki;
 import com.raywenderlich.android.droidwiki.network.WikiApi;
-import com.raywenderlich.android.droidwiki.ui.homepage.HomepageActivity;
+import info.sanaebadi.dagger2.raywenderlich.ui.homePage.HomepageActivity;
 import com.raywenderlich.android.droidwiki.ui.homepage.HomepageActivity_MembersInjector;
 import com.raywenderlich.android.droidwiki.ui.homepage.HomepagePresenter;
 import com.raywenderlich.android.droidwiki.ui.search.EntryPresenter;

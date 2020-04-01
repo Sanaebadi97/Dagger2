@@ -28,7 +28,7 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.droidwiki.application
+package info.sanaebadi.dagger2.raywenderlich.application
 
 import android.app.Application
 

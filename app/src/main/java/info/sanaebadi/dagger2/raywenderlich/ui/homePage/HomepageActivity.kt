@@ -28,7 +28,7 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.droidwiki.ui.homepage
+package info.sanaebadi.dagger2.raywenderlich.ui.homePage
 
 import android.app.Activity
 import android.os.Bundle
@@ -36,8 +36,10 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import com.raywenderlich.android.droidwiki.R
 import com.raywenderlich.android.droidwiki.model.WikiHomepage
+import com.raywenderlich.android.droidwiki.ui.homepage.HomepagePresenter
+import com.raywenderlich.android.droidwiki.ui.homepage.HomepagePresenterImpl
+import com.raywenderlich.android.droidwiki.ui.homepage.HomepageView
 import com.raywenderlich.android.droidwiki.utils.start
 import com.raywenderlich.android.droidwiki.utils.parseHtml
 import kotlinx.android.synthetic.main.activity_homepage.*

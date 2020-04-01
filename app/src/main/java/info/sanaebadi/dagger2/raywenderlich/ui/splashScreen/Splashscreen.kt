@@ -32,7 +32,7 @@ package com.raywenderlich.android.droidwiki.ui.splashscreen
 
 import android.app.Activity
 import android.os.Bundle
-import com.raywenderlich.android.droidwiki.ui.homepage.HomepageActivity
+import info.sanaebadi.dagger2.raywenderlich.ui.homePage.HomepageActivity
 import com.raywenderlich.android.droidwiki.utils.start
 
 class Splashscreen : Activity() {
