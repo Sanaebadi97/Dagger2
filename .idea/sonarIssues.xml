@@ -128,6 +128,61 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../TestPro/droidwiki-final/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestPro/droidwiki-final/app/build/tmp/kapt3/stubs/debug/com/raywenderlich/android/droidwiki/ui/search/EntryPresenterImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestPro/droidwiki-final/app/src/main/java/com/raywenderlich/android/droidwiki/dagger/NetworkModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestPro/droidwiki-final/app/src/main/java/com/raywenderlich/android/droidwiki/model/HomepageResult.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestPro/droidwiki-final/app/src/main/java/com/raywenderlich/android/droidwiki/model/SearchResult.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestPro/droidwiki-final/app/src/main/java/com/raywenderlich/android/droidwiki/network/WikiApi.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestPro/droidwiki-final/app/src/main/java/com/raywenderlich/android/droidwiki/ui/homepage/HomepagePresenterImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestPro/droidwiki-final/app/src/main/java/com/raywenderlich/android/droidwiki/ui/search/EntryAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestPro/droidwiki-final/app/src/main/java/com/raywenderlich/android/droidwiki/ui/search/EntryPresenterImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestPro/droidwiki-final/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestPro/droidwiki-final/gradle/wrapper/gradle-wrapper.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>

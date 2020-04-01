@@ -52,3 +52,13 @@ w
 Gapp/src/main/java/info/sanaebadi/dagger2/TutsplusDagger/MainActivity.kt,b/b/bbaf2022054cb9f1ca623bd4b1646ac81876341e
 x
 Happ/src/main/java/info/sanaebadi/dagger2/TutsplusDagger/model/Vehicle.kt,2/7/27acc70768c593010d4ae42d4b621a6baf99c350
+Y
+)app/src/main/res/layout/activity_main.xml,7/6/76b07e40f24cce093536731477540f12e7da3cb6
+s
+Capp/src/main/java/info/sanaebadi/dagger2/byteCode/model/Computer.kt,1/7/17a8ae8d4593a6712fdd855240028a691293d63d
+q
+Aapp/src/main/java/info/sanaebadi/dagger2/byteCode/MainActivity.kt,1/b/1be6597ae88f78c7cbcceded4e98a4fad0ee313c
+Z
+*app/src/main/res/layout/activity_main2.xml,8/7/8749ab47de294de619e217b2dd0ed09849dc3151
+}
+Mapp/src/main/java/info/sanaebadi/dagger2/byteCode/component/MotorComponent.kt,9/5/95789ca85ed81432853731a4fd6fb82055b3c87a
