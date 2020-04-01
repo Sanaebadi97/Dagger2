@@ -52,6 +52,8 @@ dependencies {
     // Support library support (optional)
     kapt "com.google.dagger:dagger-android-support:$dagger2_version"
 
+    compileOnly 'javax.annotation:jsr250-api:1.0'
+
 
     //Retrofit dependencies
 
