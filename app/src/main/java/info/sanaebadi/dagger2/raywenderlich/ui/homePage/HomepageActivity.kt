@@ -43,6 +43,7 @@ import com.raywenderlich.android.droidwiki.utils.parseHtml
 import kotlinx.android.synthetic.main.activity_homepage.*
 import com.raywenderlich.android.droidwiki.ui.search.SearchActivity
 import com.raywenderlich.android.droidwiki.utils.errorDialog
+import info.sanaebadi.dagger2.R
 
 class HomepageActivity : Activity(), HomepageView {
 
