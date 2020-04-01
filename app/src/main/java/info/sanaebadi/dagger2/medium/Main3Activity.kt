@@ -10,16 +10,17 @@ import javax.inject.Inject
 
 class Main3Activity : AppCompatActivity() {
 
-    @Inject lateinit var info: Info
+    @Inject
+    lateinit var info: Info
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main3)
 
         DaggerMagicBox.create().poke(this)
+        textView.text = info.text
 
     }
-
 
 
 }
