@@ -18,7 +18,6 @@ class Main3Activity : AppCompatActivity() {
 
         DaggerMagicBox.create().poke(this)
 
-        textView.text = info.text
     }
 
 
