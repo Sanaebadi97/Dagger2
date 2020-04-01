@@ -28,15 +28,15 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.droidwiki.utils
+package info.sanaebadi.dagger2.raywenderlich.utils
 
 import android.app.Activity
 import android.app.AlertDialog
 import android.content.Intent
 import android.os.Build
-import android.support.annotation.StringRes
 import android.text.Html
 import android.text.Spanned
+import androidx.annotation.StringRes
 import kotlin.reflect.KClass
 
 fun @receiver:StringRes Int.errorDialog(activity: Activity) {

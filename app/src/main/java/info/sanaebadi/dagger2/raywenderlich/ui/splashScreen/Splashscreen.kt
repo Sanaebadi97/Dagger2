@@ -28,12 +28,12 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.droidwiki.ui.splashscreen
+package info.sanaebadi.dagger2.raywenderlich.ui.splashScreen
 
 import android.app.Activity
 import android.os.Bundle
 import info.sanaebadi.dagger2.raywenderlich.ui.homePage.HomepageActivity
-import com.raywenderlich.android.droidwiki.utils.start
+import info.sanaebadi.dagger2.raywenderlich.utils.start
 
 class Splashscreen : Activity() {
 

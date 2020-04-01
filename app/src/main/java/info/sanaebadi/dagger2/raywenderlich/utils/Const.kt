@@ -28,7 +28,7 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.droidwiki.utils
+package info.sanaebadi.dagger2.raywenderlich.utils
 
 class Const {
   companion object {

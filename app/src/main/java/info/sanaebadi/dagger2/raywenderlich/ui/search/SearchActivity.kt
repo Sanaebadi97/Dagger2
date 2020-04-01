@@ -40,7 +40,7 @@ import info.sanaebadi.dagger2.raywenderlich.model.Entry
 import kotlinx.android.synthetic.main.activity_search.*
 import android.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.raywenderlich.android.droidwiki.utils.errorDialog
+import info.sanaebadi.dagger2.raywenderlich.utils.errorDialog
 import info.sanaebadi.dagger2.R
 
 class SearchActivity : Activity(), EntryView {

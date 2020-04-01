@@ -37,11 +37,11 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import info.sanaebadi.dagger2.raywenderlich.model.WikiHomepage
-import com.raywenderlich.android.droidwiki.utils.start
-import com.raywenderlich.android.droidwiki.utils.parseHtml
+import info.sanaebadi.dagger2.raywenderlich.utils.start
+import info.sanaebadi.dagger2.raywenderlich.utils.parseHtml
 import kotlinx.android.synthetic.main.activity_homepage.*
 import info.sanaebadi.dagger2.raywenderlich.ui.search.SearchActivity
-import com.raywenderlich.android.droidwiki.utils.errorDialog
+import info.sanaebadi.dagger2.raywenderlich.utils.errorDialog
 import info.sanaebadi.dagger2.R
 
 class HomepageActivity : Activity(), HomepageView {

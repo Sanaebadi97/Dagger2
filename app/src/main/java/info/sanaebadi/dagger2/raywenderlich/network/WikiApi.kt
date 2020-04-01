@@ -30,7 +30,7 @@
 
 package info.sanaebadi.dagger2.raywenderlich.network
 
-import com.raywenderlich.android.droidwiki.utils.Const
+import info.sanaebadi.dagger2.raywenderlich.utils.Const
 import okhttp3.Call
 import okhttp3.HttpUrl
 import okhttp3.OkHttpClient

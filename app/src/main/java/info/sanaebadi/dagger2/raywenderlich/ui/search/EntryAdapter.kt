@@ -36,7 +36,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.raywenderlich.android.droidwiki.utils.parseHtml
+import info.sanaebadi.dagger2.raywenderlich.utils.parseHtml
 import info.sanaebadi.dagger2.R
 import info.sanaebadi.dagger2.raywenderlich.model.Entry
 
