@@ -3,6 +3,7 @@ package info.sanaebadi.dagger2.medium
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import info.sanaebadi.dagger2.R
+import info.sanaebadi.dagger2.medium.model.Info
 import kotlinx.android.synthetic.main.activity_main3.*
 
 class Main3Activity : AppCompatActivity() {
@@ -17,7 +18,5 @@ class Main3Activity : AppCompatActivity() {
     }
 
 
-    class Info() {
-        val text = "Hello dagger2"
-    }
+
 }
