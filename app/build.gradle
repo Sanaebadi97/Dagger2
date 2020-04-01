@@ -63,6 +63,17 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
 
 
+
     implementation 'com.google.android.material:material:1.1.0'
+
+
+
+    ext.rx_adapter_version = "2.5.0"
+    ext.rx_java_version = "2.2.10"
+    ext.rx_android_version = "2.1.1"
+    implementation "io.reactivex.rxjava2:rxjava:$rx_java_version"
+    implementation "io.reactivex.rxjava2:rxandroid:$rx_android_version"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$rx_adapter_version"
+
 
 }
