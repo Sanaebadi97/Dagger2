@@ -1,5 +1,7 @@
 package info.sanaebadi.dagger2.raywenderlich.dagger;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.raywenderlich.android.droidwiki.network.Homepage;
 import com.raywenderlich.android.droidwiki.network.Wiki;
 import com.raywenderlich.android.droidwiki.network.WikiApi;
@@ -26,7 +28,7 @@ import okhttp3.OkHttpClient;
     "unchecked",
     "rawtypes"
 })
-public final class DaggerAppComponent implements AppComponent {
+public final class DaggerAppComponent extends AppCompatActivity {
   private Provider<OkHttpClient> provideHttpClientProvider;
 
   private Provider<String> provideBaseUrlStringProvider;

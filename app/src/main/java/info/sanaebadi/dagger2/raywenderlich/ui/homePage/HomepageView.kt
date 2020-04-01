@@ -30,7 +30,7 @@
 
 package com.raywenderlich.android.droidwiki.ui.homepage
 
-import com.raywenderlich.android.droidwiki.model.WikiHomepage
+import info.sanaebadi.dagger2.raywenderlich.model.WikiHomepage
 
 interface HomepageView {
   fun displayLoading()

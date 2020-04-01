@@ -36,7 +36,7 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import com.raywenderlich.android.droidwiki.model.WikiHomepage
+import info.sanaebadi.dagger2.raywenderlich.model.WikiHomepage
 import com.raywenderlich.android.droidwiki.ui.homepage.HomepagePresenter
 import com.raywenderlich.android.droidwiki.ui.homepage.HomepagePresenterImpl
 import com.raywenderlich.android.droidwiki.ui.homepage.HomepageView

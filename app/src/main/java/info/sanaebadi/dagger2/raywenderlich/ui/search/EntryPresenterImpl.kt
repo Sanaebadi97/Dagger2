@@ -31,7 +31,7 @@
 package com.raywenderlich.android.droidwiki.ui.search
 
 import com.raywenderlich.android.droidwiki.network.Wiki
-import com.raywenderlich.android.droidwiki.model.SearchResult
+import info.sanaebadi.dagger2.raywenderlich.model.SearchResult
 import com.raywenderlich.android.droidwiki.network.WikiApi
 import okhttp3.Call
 import okhttp3.Callback

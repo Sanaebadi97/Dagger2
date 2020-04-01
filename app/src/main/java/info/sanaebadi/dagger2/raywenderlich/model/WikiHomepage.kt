@@ -28,6 +28,6 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.droidwiki.model
+package info.sanaebadi.dagger2.raywenderlich.model
 
 data class WikiHomepage(val htmlContent: String)

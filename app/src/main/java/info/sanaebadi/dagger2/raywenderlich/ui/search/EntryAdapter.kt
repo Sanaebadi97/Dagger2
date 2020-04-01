@@ -37,8 +37,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import com.raywenderlich.android.droidwiki.R
-import com.raywenderlich.android.droidwiki.model.*
 import com.raywenderlich.android.droidwiki.utils.parseHtml
+import info.sanaebadi.dagger2.raywenderlich.model.Entry
 
 class EntryAdapter(private val context: Context, private val results: List<Entry>) : RecyclerView.Adapter<EntryAdapter.EntryHolder>() {
   override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int) =

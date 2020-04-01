@@ -30,7 +30,7 @@
 
 package com.raywenderlich.android.droidwiki.ui.search
 
-import com.raywenderlich.android.droidwiki.model.Entry
+import info.sanaebadi.dagger2.raywenderlich.model.Entry
 
 interface EntryView {
   fun displayLoading()

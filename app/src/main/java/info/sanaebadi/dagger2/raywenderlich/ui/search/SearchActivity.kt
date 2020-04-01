@@ -38,10 +38,9 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import com.raywenderlich.android.droidwiki.R
-import com.raywenderlich.android.droidwiki.model.Entry
+import info.sanaebadi.dagger2.raywenderlich.model.Entry
 import kotlinx.android.synthetic.main.activity_search.*
 import android.widget.SearchView
-import com.raywenderlich.android.droidwiki.utils.errorDialog
 
 class SearchActivity : Activity(), EntryView {
 
