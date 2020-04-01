@@ -2,9 +2,9 @@ package info.sanaebadi.dagger2.raywenderlich.dagger;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.raywenderlich.android.droidwiki.network.Homepage;
-import com.raywenderlich.android.droidwiki.network.Wiki;
-import com.raywenderlich.android.droidwiki.network.WikiApi;
+import info.sanaebadi.dagger2.raywenderlich.network.Homepage;
+import info.sanaebadi.dagger2.raywenderlich.network.Wiki;
+import info.sanaebadi.dagger2.raywenderlich.network.WikiApi;
 import info.sanaebadi.dagger2.raywenderlich.ui.homePage.HomepageActivity;
 import com.raywenderlich.android.droidwiki.ui.homepage.HomepageActivity_MembersInjector;
 import com.raywenderlich.android.droidwiki.ui.homepage.HomepagePresenter;

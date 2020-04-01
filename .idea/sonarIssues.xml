@@ -148,6 +148,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/dagger/PresenterModule_ProvideEntryPresenterFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/dagger/PresenterModule_ProvideHomepagePresenterFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/dagger/WikiModule_ProvideHomepageFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/dagger/WikiModule_ProvideWikiFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/model/Entry.kt">
           <value>
             <set />
@@ -164,6 +184,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/model/WikiHomepage.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/network/Homepage.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/network/Wiki.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/network/WikiApi.kt">
           <value>
             <set />
           </value>

@@ -28,7 +28,7 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.droidwiki.network
+package info.sanaebadi.dagger2.raywenderlich.network
 
 class Homepage(private val api: WikiApi) {
   fun get() = api.getHomepage()

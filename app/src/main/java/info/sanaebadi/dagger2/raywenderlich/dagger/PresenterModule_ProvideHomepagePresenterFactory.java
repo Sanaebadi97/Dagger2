@@ -1,6 +1,6 @@
 package info.sanaebadi.dagger2.raywenderlich.dagger;
 
-import com.raywenderlich.android.droidwiki.network.Homepage;
+import info.sanaebadi.dagger2.raywenderlich.network.Homepage;
 import com.raywenderlich.android.droidwiki.ui.homepage.HomepagePresenter;
 
 import javax.annotation.Generated;

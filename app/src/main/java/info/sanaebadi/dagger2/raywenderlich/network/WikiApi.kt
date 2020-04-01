@@ -28,7 +28,7 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.droidwiki.network
+package info.sanaebadi.dagger2.raywenderlich.network
 
 import com.raywenderlich.android.droidwiki.utils.Const
 import okhttp3.Call
@@ -36,7 +36,7 @@ import okhttp3.HttpUrl
 import okhttp3.OkHttpClient
 import okhttp3.Request
 
-class WikiApi(private val client: OkHttpClient) {
+class WikiApi(private val client: OkHttpClient, builder: HttpUrl.Builder) {
 
   fun search(query: String): Call {
     val urlBuilder = HttpUrl.parse("${Const.PROTOCOL}://${Const.LANGUAGE}.${Const.BASE_URL}")?.newBuilder()

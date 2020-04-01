@@ -28,7 +28,7 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.droidwiki.network
+package info.sanaebadi.dagger2.raywenderlich.network
 
 class Wiki(private val api: WikiApi) {
   fun search(query: String) = api.search(query)

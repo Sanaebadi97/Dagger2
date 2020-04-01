@@ -30,9 +30,9 @@
 
 package com.raywenderlich.android.droidwiki.ui.homepage
 
-import com.raywenderlich.android.droidwiki.network.Homepage
+import info.sanaebadi.dagger2.raywenderlich.network.Homepage
 import info.sanaebadi.dagger2.raywenderlich.model.HomepageResult
-import com.raywenderlich.android.droidwiki.network.WikiApi
+import info.sanaebadi.dagger2.raywenderlich.network.WikiApi
 import okhttp3.Call
 import okhttp3.Callback
 import okhttp3.OkHttpClient

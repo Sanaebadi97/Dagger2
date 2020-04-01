@@ -1,6 +1,6 @@
 package info.sanaebadi.dagger2.raywenderlich.ui.search;
 
-import com.raywenderlich.android.droidwiki.network.Wiki;
+import info.sanaebadi.dagger2.raywenderlich.network.Wiki;
 
 import javax.annotation.Generated;
 import javax.inject.Provider;

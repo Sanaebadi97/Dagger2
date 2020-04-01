@@ -30,9 +30,9 @@
 
 package com.raywenderlich.android.droidwiki.ui.search
 
-import com.raywenderlich.android.droidwiki.network.Wiki
+import info.sanaebadi.dagger2.raywenderlich.network.Wiki
 import info.sanaebadi.dagger2.raywenderlich.model.SearchResult
-import com.raywenderlich.android.droidwiki.network.WikiApi
+import info.sanaebadi.dagger2.raywenderlich.network.WikiApi
 import okhttp3.Call
 import okhttp3.Callback
 import okhttp3.OkHttpClient

@@ -1,7 +1,7 @@
 package info.sanaebadi.dagger2.raywenderlich.dagger;
 
-import com.raywenderlich.android.droidwiki.network.Wiki;
-import com.raywenderlich.android.droidwiki.network.WikiApi;
+import info.sanaebadi.dagger2.raywenderlich.network.Wiki;
+import info.sanaebadi.dagger2.raywenderlich.network.WikiApi;
 
 import javax.annotation.Generated;
 import javax.inject.Provider;

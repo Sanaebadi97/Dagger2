@@ -1,6 +1,6 @@
 package info.sanaebadi.dagger2.raywenderlich.dagger;
 
-import com.raywenderlich.android.droidwiki.network.Wiki;
+import info.sanaebadi.dagger2.raywenderlich.network.Wiki;
 import com.raywenderlich.android.droidwiki.ui.search.EntryPresenter;
 
 import javax.annotation.Generated;
