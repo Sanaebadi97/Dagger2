@@ -233,6 +233,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/ui/search/EntryAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/ui/search/EntryPresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/ui/search/EntryPresenterImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/ui/search/EntryView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/ui/search/SearchActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
           <value>
             <set />

@@ -8,8 +8,8 @@ import info.sanaebadi.dagger2.raywenderlich.network.WikiApi;
 import info.sanaebadi.dagger2.raywenderlich.ui.homePage.HomepageActivity;
 import com.raywenderlich.android.droidwiki.ui.homepage.HomepageActivity_MembersInjector;
 import info.sanaebadi.dagger2.raywenderlich.ui.homePage.HomepagePresenter;
-import com.raywenderlich.android.droidwiki.ui.search.EntryPresenter;
-import com.raywenderlich.android.droidwiki.ui.search.SearchActivity;
+import info.sanaebadi.dagger2.raywenderlich.ui.search.EntryPresenter;
+import info.sanaebadi.dagger2.raywenderlich.ui.search.SearchActivity;
 import com.raywenderlich.android.droidwiki.ui.search.SearchActivity_MembersInjector;
 
 import javax.annotation.Generated;

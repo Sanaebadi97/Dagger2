@@ -28,7 +28,7 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.droidwiki.ui.search
+package info.sanaebadi.dagger2.raywenderlich.ui.search
 
 import info.sanaebadi.dagger2.raywenderlich.network.Wiki
 import info.sanaebadi.dagger2.raywenderlich.model.SearchResult
@@ -39,7 +39,7 @@ import okhttp3.OkHttpClient
 import okhttp3.Response
 import java.io.IOException
 
-class EntryPresenterImpl : EntryPresenter {
+class EntryPresenterImpl(wiki: Wiki) : EntryPresenter {
 
   private lateinit var entryView: EntryView
 

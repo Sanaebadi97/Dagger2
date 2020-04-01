@@ -28,7 +28,7 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.droidwiki.ui.search
+package info.sanaebadi.dagger2.raywenderlich.ui.search
 
 import info.sanaebadi.dagger2.raywenderlich.model.Entry
 

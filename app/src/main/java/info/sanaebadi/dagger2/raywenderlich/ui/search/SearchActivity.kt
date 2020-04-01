@@ -28,19 +28,20 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.droidwiki.ui.search
+package info.sanaebadi.dagger2.raywenderlich.ui.search
 
 import android.app.Activity
 import android.os.Bundle
-import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import com.raywenderlich.android.droidwiki.R
 import info.sanaebadi.dagger2.raywenderlich.model.Entry
 import kotlinx.android.synthetic.main.activity_search.*
 import android.widget.SearchView
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.raywenderlich.android.droidwiki.utils.errorDialog
+import info.sanaebadi.dagger2.R
 
 class SearchActivity : Activity(), EntryView {
 
