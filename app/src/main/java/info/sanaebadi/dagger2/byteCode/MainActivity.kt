@@ -1,13 +1,9 @@
 package info.sanaebadi.dagger2.byteCode
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import dagger.internal.MapFactory.builder
-import dagger.internal.MapProviderFactory.builder
+import androidx.appcompat.app.AppCompatActivity
 import info.sanaebadi.dagger2.R
-import info.sanaebadi.dagger2.TutsplusDagger.component.VehicleComponent
-import info.sanaebadi.dagger2.TutsplusDagger.module.VehicleModule
 import info.sanaebadi.dagger2.byteCode.component.MotorComponent
 import info.sanaebadi.dagger2.byteCode.model.Motor
 import info.sanaebadi.dagger2.byteCode.module.MotorModule
@@ -17,35 +13,45 @@ class MainActivity : AppCompatActivity() {
 
 
     @Inject
-    lateinit var motor: Motor
+    var motor: Motor = Motor("")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
 
+
+        generateDaggerCode()
+        createCar(motor!!)
     }
 
 
-    fun createCar(){
-        if (motor!=null){
-            Toast.makeText(this,"Car is created",Toast.LENGTH_SHORT).show()
+    fun createCar(motor: Motor) {
+        if (this.motor != null) {
+            Toast.makeText(this, "Car is created", Toast.LENGTH_SHORT).show()
         }
 
-        startCar(motor)
+        startCar(this.motor!!)
     }
 
-    fun startCar(motor: Motor){
-        if (motor)
+    fun startCar(motor: Motor) {
+        if (motor.startEngine()) {
+            Toast.makeText(this, "it is started", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "motor name is : " + motor.name, Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(this, "motor is nor provided", Toast.LENGTH_SHORT).show()
+        }
 
     }
 
 
-    fun generateDaggerCode(){
+    fun generateDaggerCode() {
         val component: MotorComponent =
-            DaggerMotorComponent.builder().motorModule(MotorModule("Motor Name","Computer Name","Radiator Name" ,12)).build()
+            DaggerMotorComponent.builder()
+                .motorModule(MotorModule("Motor Name", "Computer Name", "Radiator Name", 12))
+                .build()
 
         component.inject(this)
-        component.inject(motor)
+        component.inject(motor!!)
     }
 }
