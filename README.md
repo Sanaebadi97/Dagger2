@@ -14,7 +14,5 @@ another object.
  
 
 
-
-
 :key:  [Dagger 2](https://dagger.dev/) is the result of a collaboration between the team behind [Guice](https://github.com/google/guice) (developed by Google) and [Dagger](http://square.github.io/dagger/) he predecessor of Dagger 2, created by Square 
 
