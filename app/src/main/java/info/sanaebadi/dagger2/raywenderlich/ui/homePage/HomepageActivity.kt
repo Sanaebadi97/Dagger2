@@ -37,9 +37,6 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import info.sanaebadi.dagger2.raywenderlich.model.WikiHomepage
-import com.raywenderlich.android.droidwiki.ui.homepage.HomepagePresenter
-import com.raywenderlich.android.droidwiki.ui.homepage.HomepagePresenterImpl
-import com.raywenderlich.android.droidwiki.ui.homepage.HomepageView
 import com.raywenderlich.android.droidwiki.utils.start
 import com.raywenderlich.android.droidwiki.utils.parseHtml
 import kotlinx.android.synthetic.main.activity_homepage.*

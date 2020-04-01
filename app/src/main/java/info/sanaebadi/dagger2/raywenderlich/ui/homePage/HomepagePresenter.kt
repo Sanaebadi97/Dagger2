@@ -28,7 +28,7 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.droidwiki.ui.homepage
+package info.sanaebadi.dagger2.raywenderlich.ui.homePage
 
 interface HomepagePresenter {
   fun setView(homepageView: HomepageView)

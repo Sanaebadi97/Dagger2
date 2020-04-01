@@ -208,7 +208,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/ui/homePage/HomepageActivity_MembersInjector.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/ui/homePage/HomepagePresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/ui/homePage/HomepagePresenterImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/ui/homePage/HomepagePresenterImpl_Factory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dagger2/raywenderlich/ui/homePage/HomepageView.kt">
           <value>
             <set />
           </value>

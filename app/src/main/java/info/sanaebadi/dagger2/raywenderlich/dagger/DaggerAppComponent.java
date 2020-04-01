@@ -7,7 +7,7 @@ import info.sanaebadi.dagger2.raywenderlich.network.Wiki;
 import info.sanaebadi.dagger2.raywenderlich.network.WikiApi;
 import info.sanaebadi.dagger2.raywenderlich.ui.homePage.HomepageActivity;
 import com.raywenderlich.android.droidwiki.ui.homepage.HomepageActivity_MembersInjector;
-import com.raywenderlich.android.droidwiki.ui.homepage.HomepagePresenter;
+import info.sanaebadi.dagger2.raywenderlich.ui.homePage.HomepagePresenter;
 import com.raywenderlich.android.droidwiki.ui.search.EntryPresenter;
 import com.raywenderlich.android.droidwiki.ui.search.SearchActivity;
 import com.raywenderlich.android.droidwiki.ui.search.SearchActivity_MembersInjector;

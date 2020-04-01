@@ -5,6 +5,7 @@ import javax.annotation.Generated;
 import javax.inject.Provider;
 
 import dagger.internal.Factory;
+import info.sanaebadi.dagger2.raywenderlich.network.Homepage;
 
 @Generated(
     value = "dagger.internal.codegen.ComponentProcessor",
